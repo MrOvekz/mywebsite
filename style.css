@@ -28,3 +28,16 @@ h1{
 .navbar li{
     float: left;
 }
+.box{
+    padding: 0px;
+    margin: 0px;
+}
+@media(max-width: 576px)
+{
+    .box{{
+        padding: 0px;
+        margin: 0px;
+        display: flex;
+        flex-direction: column-reverse;
+    }}
+}
